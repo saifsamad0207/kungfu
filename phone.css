@@ -1,0 +1,116 @@
+/*Tablet styling*/
+@media screen and  (max-width: 768px) {
+	div#pagewrap {
+		width: 100%;
+		margin: 0;
+	}
+	header {
+		padding: 0.5em;
+	}
+	header h1 {
+		font-size: 1.5em;
+	}
+	header p {
+		font-size: 0.7em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: bold;
+	}
+	section#main {
+	float: left;
+	margin: 2em 0%;
+}
+	section#registration_form {
+		float: left;
+		width: 50%;
+		margin-bottom: 1em;
+	}
+	label {
+		font-size: 1.1em;
+	}
+	aside {
+		font-size: 0.8em;
+		float: right;
+	}
+	aside h2 {
+		font-size: 1.1em;
+	}
+	aside p {
+		font-size: 0.9em;
+		font-weight: bold;
+	}
+	aside ul {
+		font-weight: bold;
+	}
+	input[type="text"], input[type="tel"], input[type="email"] {
+		width: 90%;
+	}
+	footer {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 0.7em;
+	}
+}
+
+
+
+
+
+
+/*.............................................................................................................................................................................*/
+
+
+
+/*Phone styling*/
+@media screen and (max-width: 520px) {
+	div #pagewrap {
+		width: 100%;
+		margin: 0;
+	}
+	header {
+		padding: 0.5em;
+	}
+	header h1 {
+		font-size: 1.5em;
+	}
+	header p {
+		font-size: 0.7em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: bold;
+	}
+	section#main {
+	float: none;
+	margin: 2em 0%;
+}
+	section#registration_form {
+		float: none;
+		width: 90%;
+		margin-bottom: 1em;
+	}
+	label {
+		font-size: 1.1em;
+	}
+	aside {
+		float: none;
+		padding-bottom: 11em;
+		width: 90%;
+		font-size: 1em;
+		margin: 0 auto;
+	}
+	aside h2 {
+		font-size: 1.1em;
+	}
+	aside p {
+		font-size: 0.9em;
+		font-weight: bold;
+	}
+	aside ul {
+		font-weight: bold;
+	}
+	input[type="text"], input[type="tel"], input[type="email"] {
+		width: 100%;
+		font-size: 0.9em;
+	}
+	footer {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 0.7em;
+	}
+}
